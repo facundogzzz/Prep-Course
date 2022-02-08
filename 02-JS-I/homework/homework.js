@@ -75,14 +75,12 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-
-if (str1.lenght === str2.length) {
+if (str1.length === str2.length) {
   return true;
-
 }
 return false;
-
 }
+
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -117,13 +115,20 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num%2 === 0) {
+    return true
+  }
+  return false
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-
+  if (num%2 !== 0) {
+    return true
+  }
+return false
 }
 
 function elevarAlCuadrado(num) {
@@ -240,12 +245,15 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-const vocales = ['a', 'e' ,'i' ,'o' ,'u' ,'A' ,'E' ,'I','O','U'];
-
+if (letra.length !== 1) {
+  return 'Dato incorrecto'
+}
+if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u' ) {
+  return 'Es vocal'
+}
+return 'Dato incorrecto'
 
 }
-
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
