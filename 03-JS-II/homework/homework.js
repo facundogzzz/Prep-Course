@@ -215,7 +215,6 @@ function tablaDelSeis(){
     tabla.push (6 * multiplicador);
   }  
   return tabla
-//funciona pero no pasa el test
 
 
 }
