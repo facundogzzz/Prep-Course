@@ -156,8 +156,8 @@ else {
 function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
-  //Escribe tu código aquí
-  //Lo convierto a string. Comparo el primer valor de ese string con 9.
+  //Escribe tu código aquí: 
+
   let primerDigito = n.toString()
   if (primerDigito[0] === '9'){
     return true;
@@ -198,7 +198,6 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
-  // 0 100 150 200
   const nuevoArray = []
 for (i=0; i<array.length; i++){
   if (array[i]>100){
