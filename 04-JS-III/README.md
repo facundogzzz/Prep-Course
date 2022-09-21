@@ -1,4 +1,4 @@
-![HenryLogo](https://henry-11ty-resources.s3.sa-east-1.amazonaws.com/Assets/logo-henry-white-lg.png)
+![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
@@ -22,7 +22,7 @@ En esta lección cubriremos:
 * Bucles ***for*** con arrays
 
 <div class="iframeContainer">
-<iframe src="https://player.vimeo.com/video/424916422" allow="autoplay; fullscreen"></iframe>
+<iframe src="https://player.vimeo.com/video/424916422?h=c1ea37841e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="03 - JS III - Arrays"></iframe>
 </div>
 
 ## Introducción a los arrays (matrices/arreglos)
@@ -35,7 +35,7 @@ const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
 
 ### ***.length***
 
-Al igual que el tipo de dato _String_ tiene un método incorporado `.length`, también lo hace la matriz. De hecho, la matriz tiene muchos métodos incorporados útiles (los discutiremos en lecciones posteriores). Al igual que la cadena `.length` cuenta los caracteres, la matriz`.length` devolverá el número de elementos en una matriz:
+Al igual que el tipo de dato *String* tiene un método incorporado `.length`, también lo hace la matriz. De hecho, la matriz tiene muchos métodos incorporados útiles (los discutiremos en lecciones posteriores). Al igual que la cadena `.length` cuenta los caracteres, la matriz`.length` devolverá el número de elementos en una matriz:
 
 ```javascript
 const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
@@ -94,7 +94,7 @@ nombresEstudiantes.push('Patricia');
 console.log(nombresEstudiantes);  // ['Martin', 'Antonio', 'Sara', 'Samuel', 'Patricia']
 ```
 
-`.pop` elimina el último elemento de la matriz, disminuyendo la longitud en 1. `.pop` devuelve el elemento "reventado" (_popped_).
+`.pop` elimina el último elemento de la matriz, disminuyendo la longitud en 1. `.pop` devuelve el elemento "reventado" (*popped*).
 
 ```javascript
 const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
@@ -149,3 +149,7 @@ for (let i = 0; i < nombresEstudiantes.length; i++) {
 ## Homework
 
 Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/04-JS-III/homework)
+
+---
+
+#### Si tienes dudas sobre este tema, puedes consultarlas en el canal ***04_js-iii*** de Slack
